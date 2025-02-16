@@ -1,0 +1,19 @@
+POST   http://localhost:3001/api/blogs/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJpY2FyIiwiaWQiOiI2N2IwZDNiYzU2MTRkNTliODA5NDkxOTMiLCJpYXQiOjE3Mzk2NzkxMDZ9.Ct6t-dxBHEwz6xXDFDU9q2veRYz1GOyTirP8xzWcFks
+
+{
+        "title": "guaricandilla",
+        "author": "Polo Montañes",
+        "url": "https.polo.com",
+        "likes": 12
+    }
+
+###
+PUT  http://localhost:3001/api/persons/
+Content-Type: application/json
+
+{
+  "name": "Bonifacio",
+  "number": "0132-0659"
+}
